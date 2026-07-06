@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Data (tracked elsewhere or download-only)
+data/raw/
+data/processed/
+
+# Model artifacts (generated at train time)
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Internal tooling / planning scratch (not part of the shipped project)
+.claude/
+.planning/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
